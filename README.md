@@ -4,6 +4,7 @@ instagram login with parse iOS SDK
 import "PFInstagramUtils.h" on your view controller then add this following code to your instagram login button action.
 
 
+
 [[PFInstagramUtils shareDelegate] loginInstagramWithClientId:@"b5e3187a599345f6a288cccac09879da" withDirectURI:@"wicky://" block:^(PFUser * _Nullable user, BOOL isNew, NSError * _Nullable error) {
 
     if (!error) {
